@@ -156,7 +156,6 @@ section h2 {
     color: lightblue;
 }
 
-
 /* hero */
 .jumbotron {
     background-image: url(../images/beach.png);
@@ -202,6 +201,15 @@ section h2 {
     padding: 0px 20px;
 }
 
+/* my work */
+
+.card-img-top {
+    height: 300px;
+}
+
+.card-body {
+    background-color: rgba(0, 0, 0, 0.3);
+}
 
 /* contact */
 .bg-black {
