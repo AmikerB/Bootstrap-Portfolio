@@ -55,6 +55,21 @@ section h2 {
     font-size: 50px;
 }
 
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #222222;
+}
+
 .btn {
     box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
     padding: 1.25rem 2rem;
@@ -182,11 +197,6 @@ section h2 {
     margin-bottom: 20px;
 }
 
-.about-title {
-    display: flex;
-    justify-content: center;
-}
-
 .my-image {
     width: 200px;
     height: 200px;
@@ -194,15 +204,7 @@ section h2 {
     margin-left: 9px;
 }
 
-.about-me-section {
-    display: flex;
-    text-align: center;
-    margin: 20px;
-    padding: 0px 20px;
-}
-
 /* my work */
-
 .card-img-top {
     height: 300px;
 }
@@ -239,6 +241,17 @@ section.skills .skills-item img {
 }
 
 /* contact */
+.form {
+    background-image: url(../images/beach.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
 .bg-black {
     background-color: #000000 !important;
 }
