@@ -48,7 +48,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 100px 50px;
 }
 
 section h2 {
@@ -242,7 +242,7 @@ section.skills .skills-item img {
 
 /* contact */
 .form {
-    background-image: url(../images/beach.png);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url(../images/beach.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
@@ -285,3 +285,10 @@ section.skills .skills-item img {
 .contact-section .social a:active {
     color: #fff;
 }
+
+/* media */
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width:) {}
+
+@media screen and (max-width:) {}
