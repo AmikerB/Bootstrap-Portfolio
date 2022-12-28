@@ -47,6 +47,11 @@ p {
     margin-bottom: 20px;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 section {
     padding: 100px 50px;
 }
@@ -174,6 +179,7 @@ footer {
 /* hero */
 .jumbotron {
     background-image: url(../images/beach.png);
+    background-position: 20% 30%;
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
@@ -287,9 +293,10 @@ section.skills .skills-item img {
     color: #fff;
 }
 
-/* media */
-@media screen and (max-width: 768px) {}
+#contact .container {
+    height: 100%;
+}
 
-@media screen and (max-width: 950px) {}
-
-@media screen and (max-width:) {}
+#contact .row {
+    height: 100%;
+}
