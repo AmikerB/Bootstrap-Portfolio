@@ -102,6 +102,16 @@ footer {
     border: 0;
 }
 
+#skills .btn {
+    color: var(--black);
+}
+
+#skills .btn-outline {
+    color: var(--black);
+    border-color: var(--black);
+}
+
+
 .btn-outline {
     color: var(--white);
     border: 1px solid;
@@ -127,6 +137,12 @@ footer {
 .btn-xl {
     font-size: 11px;
     padding: 15px 45px;
+}
+
+.btn-s {
+    font-size: 11px;
+    padding: 10px 30px;
+    margin: 10px;
 }
 
 /* navigation bar */
