@@ -1,4 +1,5 @@
-/* Global styles ============= */
+/*/////////// GENERAL STYLES ///////////*/
+
 :root {
     --white: rgb(245, 245, 245);
     --black: #000000;
@@ -11,21 +12,7 @@ body {
     height: 100%;
 }
 
-body {
-    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-    background-color: var(--white);
-}
-
-a {
-    color: var(--black);
-    transition: all .35s;
-}
-
-a:hover,
-a:focus {
-    color: var(--black);
-}
-
+/* headings */
 hr {
     max-width: 100px;
     margin: 25px auto 0;
@@ -46,6 +33,22 @@ h6 {
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     letter-spacing: 1px;
+}
+
+/* content */
+body {
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+    background-color: var(--white);
+}
+
+a {
+    color: var(--black);
+    transition: all .35s;
+}
+
+a:hover,
+a:focus {
+    color: var(--black);
 }
 
 p {
@@ -75,6 +78,7 @@ section h2 {
     margin-left: auto;
 }
 
+/* footer */
 footer {
     padding: 25px 0;
     text-align: center;
@@ -82,6 +86,9 @@ footer {
     background-color: #222222;
 }
 
+/*/////////// UTILITIES ///////////*/
+
+/* button designs */
 .btn {
     box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
     padding: 1.25rem 2rem;
@@ -110,7 +117,6 @@ footer {
     color: var(--black);
     border-color: var(--black);
 }
-
 
 .btn-outline {
     color: var(--white);
@@ -220,7 +226,7 @@ footer {
 }
 
 
-/* about me */
+/* about me section */
 .page-section {
     display: flex;
     margin-bottom: 20px;
@@ -233,7 +239,7 @@ footer {
     margin-left: 9px;
 }
 
-/* my work */
+/* portfolio section*/
 .card-img-top {
     height: 300px;
 }
@@ -253,8 +259,7 @@ footer {
     box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
-
-/* skills */
+/* skills section */
 section.skills {
     padding-top: 7rem;
     padding-bottom: 7rem;
@@ -270,7 +275,7 @@ section.skills .skills-item img {
     box-shadow: 0px 5px 5px 0px #adb5bd;
 }
 
-/* contact */
+/* contact form section*/
 .form {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, var(--black) 100%), url(../images/beach.jpg);
     background-position: 10% 20%;
@@ -282,7 +287,7 @@ section.skills .skills-item img {
     justify-content: center;
 }
 
-
+/* footer contact section */
 .bg-black {
     background-color: var(--black) !important;
 }
