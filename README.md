@@ -10,4 +10,4 @@ This [portfolio](https://amikerb.github.io/Bootstrap-Portfolio/) was built on th
 ## Credits 
  - Created using templates from [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) v4.6
  - Icons used from [Font Awesome](https://fontawesome.com/)
- - 
+ - Took inspiration from week 2's [challenge](https://github.com/skills-bootcamp/frontend-dev/tree/main/week3/day3/activities/3-travel-california)
